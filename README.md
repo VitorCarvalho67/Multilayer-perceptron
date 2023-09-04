@@ -23,7 +23,7 @@ Para usar este Multilayer Perceptron, siga os passos abaixo:
 
 $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
 
-1. **Camada Oculta (Hidden Layer)**:
+**Camada Oculta (Hidden Layer)**:
 
    A entrada da camada oculta é calculada como:
 
