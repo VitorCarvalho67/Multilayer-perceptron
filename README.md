@@ -22,37 +22,3 @@ Para usar este Multilayer Perceptron, siga os passos abaixo:
 ## função de ativação:
 
 $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
-
-**Camada Oculta (Hidden Layer)**:
-
-   A entrada da camada oculta é calculada como:
-
-$\text{entrada\_oculta} = X \cdot w_1$.
-
-
-   Aqui, \(X\) é a matriz de entradas com dimensões \((n_{\text{amostras}}, N)\).
-
-   Em seguida, aplicamos a função de ativação sigmóide elemento por elemento:
-
-   $$
-\text{saida\_oculta} = \sigma(\text{entrada\_oculta})
-$$
-
-
-3. **Camada de Saída (Output Layer)**:
-
-   A entrada da camada de saída é calculada como:
-
-  $$
-\text{entrada\_saida} = \text{saida\_oculta} \cdot w_2
-$$
-
-
-   Aqui, \(\text{saida\_oculta}\) é a matriz de saída da camada oculta com dimensões \((n_{\text{amostras}}, M)\).
-
-   Mais uma vez, aplicamos a função de ativação sigmóide elemento por elemento:
-
-   $$
-\text{saida\_saida} = \sigma(\text{entrada\_saida})
-$$
-
