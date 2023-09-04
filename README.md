@@ -7,13 +7,13 @@ Este repositório contém uma implementação de um Multilayer Perceptron em Pyt
 Para usar este Multilayer Perceptron, siga os passos abaixo:
 
 1. Clone o repositório em seu ambiente local:
-´´´ git clone https://github.com/VitorCarvalho67/Multilayer-perceptron.git ´´´
+```git clone https://github.com/VitorCarvalho67/Multilayer-perceptron.git```
 
 2. Navegue até o diretório do projeto:
-´´´ cd seu-repositorio ´´´
+```cd seu-repositorio```
 
 3. Execute o script Python:
-´´´ python main.py ´´´
+```python main.py```
 
 4. Siga as instruções fornecidas no console para selecionar a porta lógica e treinar o modelo.
 
