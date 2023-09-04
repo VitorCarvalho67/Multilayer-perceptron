@@ -19,4 +19,6 @@ Para usar este Multilayer Perceptron, siga os passos abaixo:
 
 5. Após o treinamento, você pode testar o modelo com entradas personalizadas.
 
-A derivada da função sigmóide é $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
+## função de ativação:
+
+$f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
