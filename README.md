@@ -23,7 +23,7 @@ Para usar este Multilayer Perceptron, siga os passos abaixo:
 
 $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
 
-    Camada Oculta (Hidden Layer):
+Camada Oculta (Hidden Layer):
 
 A entrada da camada oculta é a saída da camada de entrada multiplicada pelos pesos w1w1​:
 
@@ -39,7 +39,7 @@ $$
 \text{saida\_oculta} = \sigma(\text{entrada\_oculta})
 $$
 
-    Camada de Saída (Output Layer):
+Camada de Saída (Output Layer):
 
 A entrada da camada de saída é a saída da camada oculta multiplicada pelos pesos w2w2​:
 
