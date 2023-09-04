@@ -27,9 +27,7 @@ $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
 
 A entrada da camada oculta é a saída da camada de entrada multiplicada pelos pesos w1w1​:
 
-$$
-\text{entrada\_oculta} = X \cdot w_1
-$$
+$ \text{entrada\_oculta} = X \cdot w_1
 
 Aqui, XX é a matriz de entradas com dimensões (namostras,N)(namostras​,N).
 
