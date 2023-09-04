@@ -27,7 +27,7 @@ $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
 
    A entrada da camada oculta é calculada como:
 
-    $$\text{entrada\_oculta} = X \cdot w_1$$
+   $\text{entrada\_oculta} = X \cdot w_1$.
 
 
    Aqui, \(X\) é a matriz de entradas com dimensões \((n_{\text{amostras}}, N)\).
@@ -39,7 +39,7 @@ $f'(x) = \frac{e^{-x}}{(1 + e^{-x})^2}$.
 $$
 
 
-2. **Camada de Saída (Output Layer)**:
+3. **Camada de Saída (Output Layer)**:
 
    A entrada da camada de saída é calculada como:
 
